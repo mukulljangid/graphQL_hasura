@@ -17,7 +17,7 @@ You can sign in to Hasura and then if you have an existing postgres database, en
 
 ### Step 3: Calling API using Hasura console
 Let us consider a movies table with the following columns: { title - text, release_year - integer, production_compamy - text, director - text, writer - text, actor1 - text, actor2 - text, id - integer } 
-id - primary key, unique
+where, id - primary key, unique
 
 - As soon as we create a table on our console, if we look at the explorer, we have different options to just do a couple of clicks and it will create a query for us. *No typing needed*.
 
