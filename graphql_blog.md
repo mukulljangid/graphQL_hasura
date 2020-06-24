@@ -40,6 +40,9 @@ And other is for parameterised primary key quering, where you check the starred 
 <img width="1160" alt="Screenshot 2020-06-24 at 12 37 53 AM" src="https://user-images.githubusercontent.com/49061120/85501247-f7895480-b5b2-11ea-96db-ee7731018500.png">
 
 #### Scope
+- Just for testing purposes, you can try making an API call from Postman by entering headers from the hasura console and entering your query in the body of the request. Looks something like this:
+<img width="1127" alt="Screenshot 2020-06-24 at 8 19 57 AM" src="https://user-images.githubusercontent.com/49061120/85555490-faf10000-b5f3-11ea-9bcc-4c20fef13a6e.png">
+And you know, if it worked on postman, it will respond to any code request that comes in.
 
 - Remote schema, a GraphQL external service, can be used to connect to Hasura, by just pointing to the Hasura API endpoint from the GraphQL service. 
 
