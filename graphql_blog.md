@@ -1,19 +1,19 @@
 # GraphQL Technical Blog (Hasura)
 Making API requests using Hasura and quickly fetching responses using GraphQL.
-
-## Steps to setup the enironment and include library in our code
+*A longer introduction here is needed here. Define key ideas you will include here (Hasura for example). Also describe the activity you will be doing. 
+## Steps to setup the environment and include library in our code
 
 For setting up an API on Hasura, we might need a prerequisite of setting up a postgres database to further include a link to it when we create a project.
 Hasura doesn't have an option of importing a database from local, it needs to be hosted somewhere, let's say, in an AWS S3 bucket.
 Also, if you are looking to set up Hasura on local using the docker compose file, you might want to set up Docker and Docker compose first. More information about that can be found here: https://hasura.io/docs/1.0/graphql/manual/getting-started/docker-simple.html
 
-## General Workflow
+## General Workflow (*I would delete this heading and combine the previous paragraph since you're describing an activity)
 
 ### Step 1: Logging in to Hasura
-If you are looking to do on local, you might have GraphQL engine ready using docker-compose and by using Hasura console you can get started. Another option is to use the online console, which works fine too. 
+If you are looking to do on local, have the GraphQL engine ready using docker-compose and the Hasura console to get started. Another option is to use the online console. *Maybe add which method is easiest, convenient, etc. 
 
 ### Step 2: Setting up Database
-You can sign in to Hasura and then if you have an existing postgres database, enter the connection URI. Another not so practical option for just learning purpose would be to setup free heroku database, for which you setup a Heroku account and create tables and insert rows manually one at a time.
+You can sign in to Hasura and then if you have an existing postgres database, enter the connection URI. You can also setup a free heroku database for which you setup a Heroku account and create tables and insert rows manually one at a time. 
 
 ### Step 3: Calling API using Hasura console
 Let us consider a movies table with the following columns: { title - text, release_year - integer, production_compamy - text, director - text, writer - text, actor1 - text, actor2 - text, id - integer } 
@@ -52,4 +52,4 @@ More information can be found on https://hasura.io/opensource/
 
 ### Conclusion
 
-- No developer would have ever thought that hitting an API and forming a request (as a query) by just clicking around would be so easy. Thank you for following along.
+- No developer would have ever thought that hitting an API and forming a request (as a query) by just clicking around would be so easy. Thank you for following along. *This conclusion should be longer and summarize the blog. Also include applications of concepts explored in this vlog. 
