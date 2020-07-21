@@ -52,7 +52,7 @@ And you know, if it worked on postman, it will respond to any code request that 
 More information can be found on https://hasura.io/opensource/
 
 ### Summary
-For condensing the entire process into a couple of lines, all you need is a hasura account and a database which can be linked to hasura and we can then get straight to API making. 
+For condensing the entire process into a couple of lines, all we need is a hasura account and a database which can be linked to hasura and we can then get straight to API making. Start checking boxes of the columns we want to display in your query. Select them in the order that we would like it to be displayed. See that the query formed is correct and has no red lines to indicates errors and then we can shoot it to see the results! Use aggregate functions and form more complex queries and still expect the result to be really quick. That's the benefit of Hasura and we can use it to back any application we like.
 
 ### Conclusion
 
