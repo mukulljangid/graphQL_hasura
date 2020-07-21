@@ -1,16 +1,17 @@
 # GraphQL Technical Blog (Hasura)
+GraphQL is changing the way modern apps are built!
 Making API requests using Hasura and quickly fetching responses using GraphQL.
-*A longer introduction here is needed here. Define key ideas you will include here (Hasura for example). Also describe the activity you will be doing. 
+Hasura gives you the goodness of GraphQL without the pain of having to set it up.
+Hasura is a fully GraphQL spec compliant server and connects to databases & services to provide a secure and scalable unified GraphQL API.
+
 ## Steps to setup the environment and include library in our code
 
 For setting up an API on Hasura, we might need a prerequisite of setting up a postgres database to further include a link to it when we create a project.
 Hasura doesn't have an option of importing a database from local, it needs to be hosted somewhere, let's say, in an AWS S3 bucket.
 Also, if you are looking to set up Hasura on local using the docker compose file, you might want to set up Docker and Docker compose first. More information about that can be found here: https://hasura.io/docs/1.0/graphql/manual/getting-started/docker-simple.html
 
-## General Workflow (*I would delete this heading and combine the previous paragraph since you're describing an activity)
-
 ### Step 1: Logging in to Hasura
-If you are looking to do on local, have the GraphQL engine ready using docker-compose and the Hasura console to get started. Another option is to use the online console. *Maybe add which method is easiest, convenient, etc. 
+If you are looking to do on local, have the GraphQL engine ready using docker-compose and the Hasura console to get started. Another option is to use the online console. Online console would be really convenient for a quickstart.
 
 ### Step 2: Setting up Database
 You can sign in to Hasura and then if you have an existing postgres database, enter the connection URI. You can also setup a free heroku database for which you setup a Heroku account and create tables and insert rows manually one at a time. 
@@ -50,6 +51,9 @@ And you know, if it worked on postman, it will respond to any code request that 
 
 More information can be found on https://hasura.io/opensource/
 
+### Summary
+For condensing the entire process into a couple of lines, all you need is a hasura account and a database which can be linked to hasura and we can then get straight to API making. 
+
 ### Conclusion
 
-- No developer would have ever thought that hitting an API and forming a request (as a query) by just clicking around would be so easy. Thank you for following along. *This conclusion should be longer and summarize the blog. Also include applications of concepts explored in this vlog. 
+- No developer would have ever thought that hitting an API and forming a request (as a query) by just clicking around would be so easy. Thank you for following along.
